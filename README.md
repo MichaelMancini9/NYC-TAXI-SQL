@@ -58,26 +58,27 @@ The analysis focuses on answering key questions such as:
 ---
 
 ## 📂 Project Structure
+```
 NYC-TAXI-SQL/
 │
-├── data_raw/
-│ ├── taxi_zone_lookup.csv
-│ ├── yellow_tripdata_2025-01.parquet
-│ └── yellow_tripdata_2025-02.parquet
+├── data_raw/              # Raw data files (not included)
+│   ├── taxi_zone_lookup.csv
+│   └── (trip data files)
 │
-├── database/
-│ └── taxi_analysis.db
+├── database/              # SQLite database
+│   └── taxi_analysis.db
 │
-├── notebooks/
-│ └── taxi_demand_and_pricing_analysis.ipynb
+├── notebooks/             # Analysis notebooks
+│   └── taxi_demand_and_pricing_analysis.ipynb
 │
-├── queries/
-│ └── analysis.sql
+├── queries/               # SQL queries
+│   └── analysis.sql
 │
-├── scripts/
-│ └── load_data.py
+├── scripts/               # Data loading scripts
+│   └── load_data.py
 │
 └── README.md
+```
 ---
 
 ## 📥 Data
