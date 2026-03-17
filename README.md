@@ -80,6 +80,19 @@ NYC-TAXI-SQL/
 └── README.md
 ---
 
+## 📥 Data
+
+Due to file size limits, raw data is not included in this repository.
+
+You can download the dataset from:
+https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+
+After downloading, place the files in the `data/` folder and run:
+
+```bash
+python scripts/load_data.py
+
+
 🎯 Key Takeaways
 
 This project demonstrates:
