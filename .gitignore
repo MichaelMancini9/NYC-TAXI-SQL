@@ -1,3 +1,9 @@
+# Ignore large data files
+data_raw/*.parquet
+
+# Python
 __pycache__/
-*.db-journal
 .ipynb_checkpoints/
+
+# SQLite temp files
+*.db-journal
